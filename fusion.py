@@ -21,7 +21,7 @@ class Personaje:
 opcion = ''
 lista_de_fusiones = []
 while True:
-    print("======= Menú =======")
+    print("======= Dragon Ball Fusion =======")
     print("1. Agregar fusión")
     print("2. Imprimir lista de fusiones")
     print("3. Eliminar personaje de la lista")
@@ -43,7 +43,7 @@ while True:
         print(f'Fusión agregada: {fusion}')
 
     elif opcion == '2':
-        if True1:
+        if True:
             print("Lista de fusiones:")
             for index, fusion in enumerate(lista_de_fusiones, start=1):
                 print(f"{index}. {fusion}")
